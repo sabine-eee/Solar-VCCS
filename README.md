@@ -1,5 +1,12 @@
 Solar array 24x42cm with approx 40vDC battery
 
+battery characteristic:
+18650 cells Panasonic NCR18650B
+10 series 
+6 paralell 
+w BMS 
+
+
 make circut combo that's able to charge internal battery 
 
 materials needed: 
