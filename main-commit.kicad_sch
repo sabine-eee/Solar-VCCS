@@ -2828,6 +2828,12 @@
 		(uuid "4b8ec591-56b2-4cc0-bcfc-cfc466e2f834")
 	)
 	(junction
+		(at 193.04 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e85f782-6380-4e25-9000-6ea93c0764be")
+	)
+	(junction
 		(at 88.9 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2924,12 +2930,6 @@
 		(uuid "c1e76d8a-d6e7-49e0-91ff-9f0a165cf8ec")
 	)
 	(junction
-		(at 208.28 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5ad728d-9b38-4096-ade5-b30341d2de0c")
-	)
-	(junction
 		(at 203.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2948,16 +2948,16 @@
 		(uuid "d4a14ad8-6c21-4e72-a46f-94a9e6c63a1c")
 	)
 	(junction
-		(at 200.66 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d57265f6-5cf5-4a73-90b9-a391b1c1a698")
-	)
-	(junction
 		(at 68.58 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6d57ddd-e7df-45c1-b727-3df45fe12762")
+	)
+	(junction
+		(at 208.28 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da087bf6-dc8a-431a-8288-ddf907a8dbdb")
 	)
 	(junction
 		(at 127 95.25)
@@ -2974,16 +2974,6 @@
 	(no_connect
 		(at 114.3 111.76)
 		(uuid "738f165a-e676-4e87-b6d5-4944116e34c9")
-	)
-	(wire
-		(pts
-			(xy 207.01 44.45) (xy 219.71 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00794de3-1d5a-4463-ac36-bff91ce2e64b")
 	)
 	(wire
 		(pts
@@ -3167,7 +3157,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 45.72) (xy 222.25 57.15)
+			(xy 193.04 53.34) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3712bcf5-9bef-41e1-9ce9-3d51aa5788f1")
+	)
+	(wire
+		(pts
+			(xy 222.25 55.88) (xy 222.25 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +3207,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 38.1) (xy 200.66 53.34)
+			(xy 193.04 34.29) (xy 193.04 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3257,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 45.72) (xy 222.25 45.72)
+			(xy 231.14 55.88) (xy 222.25 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3304,16 +3304,6 @@
 			(type default)
 		)
 		(uuid "529d03f2-2da3-4331-9218-f03363a085af")
-	)
-	(wire
-		(pts
-			(xy 207.01 54.61) (xy 207.01 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541d98c6-7832-418a-af77-763e09883b75")
 	)
 	(wire
 		(pts
@@ -3374,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "6b4f39d6-0e4c-4aa4-928d-1c74e1806aad")
+	)
+	(wire
+		(pts
+			(xy 208.28 138.43) (xy 231.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba42f97-f652-4cd0-8429-1668f2888443")
 	)
 	(wire
 		(pts
@@ -3557,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 68.58 53.34)
+			(xy 193.04 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 231.14 138.43)
+			(xy 231.14 66.04) (xy 231.14 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3637,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 44.45) (xy 219.71 36.83)
+			(xy 207.01 36.83) (xy 207.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3667,13 +3667,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 53.34) (xy 200.66 53.34)
+			(xy 127 142.24) (xy 127 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca8b867c-0d50-42b6-b0c7-39b15c90362d")
+		(uuid "ca5ee871-a190-4df6-b5d0-695ab62d270c")
 	)
 	(wire
 		(pts
@@ -3777,16 +3777,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 138.43) (xy 208.28 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e92b1345-c166-47cd-8b53-8b9c68deb018")
-	)
-	(wire
-		(pts
 			(xy 127 121.92) (xy 139.7 121.92)
 		)
 		(stroke
@@ -3858,7 +3848,7 @@
 		(uuid 9f697ed5-1099-46c2-a159-8aa55d178e9f)
 	)
 	(label "dummy load"
-		(at 219.71 36.83 0)
+		(at 207.01 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3927,7 +3917,7 @@
 			(uuid "39c5ba1a-8141-4d1d-9b0e-2c46d93ae6a0")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "TP2")
 					(unit 1)
@@ -3937,7 +3927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 38.1 0)
+		(at 203.2 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3946,7 +3936,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f6162fa-261e-4bd6-8472-88f88031d6a8")
 		(property "Reference" "#PWR03"
-			(at 210.82 44.45 0)
+			(at 203.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 43.18 0)
+			(at 203.2 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 38.1 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 38.1 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 38.1 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +3983,7 @@
 			(uuid "2df499cb-0bb1-4049-a283-5e0b632f5fb9")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "#PWR03")
 					(unit 1)
@@ -4080,7 +4070,7 @@
 			(uuid "fbcf4909-f5df-4a32-a197-ac4ff7d659a4")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "U1")
 					(unit 1)
@@ -4090,7 +4080,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cells")
-		(at 231.14 50.8 0)
+		(at 231.14 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4099,7 +4089,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c5c73b-ab80-4b74-80ba-aa29b6ce561b")
 		(property "Reference" "SC1"
-			(at 234.95 48.8949 0)
+			(at 234.95 59.0549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4098,7 @@
 			)
 		)
 		(property "Value" "Solar_Cells"
-			(at 234.95 51.4349 0)
+			(at 234.95 61.5949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 49.276 90)
+			(at 231.14 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 49.276 90)
+			(at 231.14 59.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4125,7 @@
 			)
 		)
 		(property "Description" "Multiple solar cells"
-			(at 231.14 50.8 0)
+			(at 231.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4140,7 @@
 			(uuid "3fb1fcf8-3e14-4fb5-a755-7ae112794794")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "SC1")
 					(unit 1)
@@ -4227,7 +4217,7 @@
 			(uuid "639d56ca-aac8-44ea-890f-77088c6c0fea")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "K1")
 					(unit 1)
@@ -4297,7 +4287,7 @@
 			(uuid "2eb684c9-4d03-4a62-a99a-0eb3e87e3059")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "SW2")
 					(unit 1)
@@ -4367,7 +4357,7 @@
 			(uuid "99a745cd-f469-4e2b-b21b-f6aab76411ec")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "D2")
 					(unit 1)
@@ -4377,7 +4367,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 127 138.43 0)
+		(at 127 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4386,7 +4376,7 @@
 		(fields_autoplaced yes)
 		(uuid "871b6623-c749-49fe-bec5-b2f6a232b355")
 		(property "Reference" "#PWR01"
-			(at 127 144.78 0)
+			(at 127 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4385,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 127 143.51 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 138.43 0)
+			(at 127 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4403,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 138.43 0)
+			(at 127 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 127 138.43 0)
+			(at 127 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4424,7 @@
 			(uuid "2d6964f5-123a-45b0-acec-f7bddfc01176")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "#PWR01")
 					(unit 1)
@@ -4510,7 +4500,7 @@
 			(uuid "f47a8a00-a5db-4b8d-9fea-2c8cf25300e6")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "Q1")
 					(unit 1)
@@ -4599,7 +4589,7 @@
 			(uuid "e3e47a90-0572-4ad7-9d88-19b7b0a9a22f")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "D4")
 					(unit 1)
@@ -4609,7 +4599,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 205.74 38.1 90)
+		(at 198.12 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4618,7 +4608,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a03c160-a14f-4a55-b525-d4dd8d56f1f8")
 		(property "Reference" "BT1"
-			(at 205.1685 30.48 90)
+			(at 197.5485 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4616,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 205.1685 33.02 90)
+			(at 197.5485 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.216 38.1 90)
+			(at 196.596 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.216 38.1 90)
+			(at 196.596 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4642,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 205.74 38.1 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4657,7 @@
 			(uuid "99dec979-49b9-4ac0-91fd-6fcfce7ef9c3")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "BT1")
 					(unit 1)
@@ -4735,7 +4725,7 @@
 			(uuid "11879967-d322-4773-9d4e-e5c3c8b3c0a3")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "TP1")
 					(unit 1)
@@ -4806,7 +4796,7 @@
 			(uuid "0079395d-29f4-4277-865a-1a0ced78c0e1")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R6")
 					(unit 1)
@@ -4873,7 +4863,7 @@
 			(uuid "41a08609-03e2-497a-be67-427dd7688235")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "#PWR02")
 					(unit 1)
@@ -4943,7 +4933,7 @@
 			(uuid "a85a1b85-c9f6-47f7-b214-940842120b4a")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R7")
 					(unit 1)
@@ -5011,7 +5001,7 @@
 			(uuid "8a8939c6-4c92-44db-9c61-451742522b9c")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R3")
 					(unit 1)
@@ -5081,7 +5071,7 @@
 			(uuid "e131dcfc-5360-464e-a19c-b3eccbe9c68b")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "D3")
 					(unit 1)
@@ -5097,10 +5087,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c593f5bd-334c-415f-a86d-01b97fef64fb")
 		(property "Reference" "R8"
-			(at 74.93 115.5699 0)
+			(at 73.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5141,7 @@
 			(uuid "3687c772-ea1f-43d5-8767-0cb85ae7c8fb")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R8")
 					(unit 1)
@@ -5223,7 +5212,7 @@
 			(uuid "47b3cc9a-eed9-4c23-a480-d34e00f5649f")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R5")
 					(unit 1)
@@ -5294,7 +5283,7 @@
 			(uuid "fe3dfe05-bab4-4503-85cf-2d39ceedceaf")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "C1")
 					(unit 1)
@@ -5362,7 +5351,7 @@
 			(uuid "c775941d-63f3-4524-b89f-0f4c3b67f9c2")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R1")
 					(unit 1)
@@ -5433,7 +5422,7 @@
 			(uuid "ebc8def3-c56b-47ff-95ba-4aa68812839b")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R2")
 					(unit 1)
@@ -5503,7 +5492,7 @@
 			(uuid "30f9c580-cdf0-49ea-8ae4-823dad03fd39")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "SW1")
 					(unit 1)
@@ -5519,10 +5508,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f279d5f8-9d34-4f23-bedb-5d9d605f110e")
 		(property "Reference" "R9"
-			(at 99.06 88.9 90)
+			(at 99.06 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5560,7 @@
 			(uuid "cae11886-8d01-4a31-a00d-e7ad6580da11")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R9")
 					(unit 1)
@@ -5648,7 +5636,7 @@
 			(uuid "8f37844c-eb39-4c3d-8900-827a45d2d12f")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "Q2")
 					(unit 1)
@@ -5718,7 +5706,7 @@
 			(uuid "71ad9aa2-9495-46a4-8cef-6e5f86d921dc")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "C2")
 					(unit 1)
@@ -5789,7 +5777,7 @@
 			(uuid "46a467b9-9db7-4985-b2dd-f335a0ee2034")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "R4")
 					(unit 1)
@@ -5861,7 +5849,7 @@
 			(uuid "fd02415d-b905-46e9-a505-d5db780f91b4")
 		)
 		(instances
-			(project ""
+			(project "main-commit"
 				(path "/e3c95667-5e4f-4589-a270-146f203502c1"
 					(reference "U2")
 					(unit 1)
